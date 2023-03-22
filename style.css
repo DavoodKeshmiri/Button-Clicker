@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif
+}
+
+.grandParentComponent {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.parentNavBarComponent {
+    height: 100px;
+    width: 85%;
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.subParentNavBarComponent {
+    height: 85px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.loginLogoutBtn {
+    background-color: aqua;
+}
+
+.parentComponent {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.firstComponent {
+    width: 85%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.topDictionaryCardComponent {
+    display: flex;
+    justify-content: space-between;
+    height: 185px;
+    width: 55%;
+    box-shadow: 5px 5px 5px rgb(155, 155, 155);
+    margin-top: 15px;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-right: 40px;
+    border-style: solid;
+    border-color: black;
+}
+
+.leftComponent {
+    height: 150px;
+    width: 100px;
+}
+
+.rightComponent {
+    height: 150px;
+    width: 75%;
+    display: flex;
+    align-items: center;
+}
+
+.rightTopComponent {
+    height: 170px;
+    width: 40%;
+    box-shadow: 5px 5px 5px rgb(155, 155, 155);
+    margin-top: 15px;
+    margin-left: 5%;
+    padding-left: 15px;
+    padding-top: 15px;
+    border-style: solid;
+    border-color: black;
+}
+
+.parentComponent2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.firstComponent2 {
+    width: 85%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.topDictionaryCardComponent2 {
+    height: 185px;
+    width: 55%;
+    box-shadow: 5px 5px 5px rgb(155, 155, 155);
+    margin-top: 15px;
+    padding-left: 15px;
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    border-style: solid;
+    border-color: black;
+}
+
+.ninjaComponent {
+    height: 150px;
+    width: 100px;
+
+}
+
+.ninjaComponent2 {
+    height: 150px;
+    width: 77%;
+    display: flex;
+    align-items: center;
+
+}
+
+#addDefBtn {
+    visibility: visible;
+}

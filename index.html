@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dojonary</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="script.js">
+</head>
+<body>
+    <div class="grandParentComponent">
+        <div class="parentNavBarComponent">
+            <div class="subParentNavBarComponent">
+                <div class="titleComponent"><h1>Dojonary</h1></div>
+                <div class="searchBarComponent"><input type="search" placeholder="Search"></div>
+                <div class="loginLogoutBtnComponent"><button id="loginBtnn" onclick="loginLogoutSwitcher()" value="Login" class="loginLogoutBtn">Login</button></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="parentComponent">
+        <div class="firstComponent">
+            <div class="topDictionaryCardComponent">
+                <div class="leftComponent">
+                    <h2>ninja</h2>
+                    <h3>noun</h3>
+                    <h4>Plural: ninjas</h4>
+                    <button onclick="topBtnCounter()" id="clickme">13 Likes</button>
+                </div>
+
+                <div class="rightComponent">
+                    <h2>A practitioner skilled in the <a href="https://www.w3schools.com">Japanese</a> art of <a href="https://www.w3schools.com">ninjutsu</a></h2>
+                </div>
+
+            </div>
+            <div class="rightTopComponent">
+                <h2>Dojonary is defined by <b>YOU</b></h2>
+                <button onclick="btnVanisher()" id="addDefBtn">Add Definition</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="parentComponent2">
+        <div class="firstComponent2">
+            <div class="topDictionaryCardComponent2">
+                <div class="ninjaComponent">
+                    <h2>ninja</h2>
+                    <h3>noun</h3>
+                    <h4>Plural: ninjas</h4>
+                    <button onclick="topBtnCounter2()" id="count2">34 Likes</button>
+                </div>
+
+
+                <div class="ninjaComponent2">
+                    <h2>A <a href="https://www.w3schools.com">programmer</a> who breaks down problems with <a href="https://www.w3schools.com">zen</a>-like focus</h2>
+                    
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
